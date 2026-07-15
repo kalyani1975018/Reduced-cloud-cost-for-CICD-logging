@@ -235,28 +235,37 @@ If you see `Uploaded: ...` lines, it's working. Then reset the schedule back to 
 
 Referanced screenshots:
 
-<img width="1920" height="1080" alt="Screenshot (225)" src="https://github.com/user-attachments/assets/b0bd06f9-effe-4512-b39b-f37b4ebceefe" />
+<img width="1920" height="1080" alt="Screenshot (225)" src="https://github.com/user-attachments/assets/d880413b-a18d-4bfd-9110-2adbd855c00c" />
 
-<img width="1920" height="1080" alt="Screenshot (226)" src="https://github.com/user-attachments/assets/1578cdcc-e845-4321-b1dd-18bae613f435" />
-update the instance type bcz t3.micro not having enough space to run the jenkins
+<img width="1920" height="1080" alt="Screenshot (226)" src="https://github.com/user-attachments/assets/6d53aeac-9707-4fde-910d-f3c5449dbe7f" />
 
-<img width="1920" height="1080" alt="Screenshot (234)" src="https://github.com/user-attachments/assets/899c8d97-bb8f-4a2d-9c1a-dea5fe68ba17" />
+<img width="1920" height="1080" alt="Screenshot (228)" src="https://github.com/user-attachments/assets/02e1f68b-59d8-4cd3-95d0-f10e72a293bf" />
 
-<img width="1920" height="1080" alt="Screenshot (228)" src="https://github.com/user-attachments/assets/5218d3f3-6857-4775-ae38-0644cf6993b4" />
+<img width="1920" height="1080" alt="Screenshot (229)" src="https://github.com/user-attachments/assets/72014d7f-3cd8-46cb-adfd-7cfe4530c62c" />
 
-<img width="1920" height="1080" alt="Screenshot (229)" src="https://github.com/user-attachments/assets/78b386d6-53b1-4b83-ab28-73f304da6494" />
+<img width="1920" height="1080" alt="Screenshot (230)" src="https://github.com/user-attachments/assets/02922957-970e-4cc6-b9f4-6ed9f6079e32" />
 
-<img width="1920" height="1080" alt="Screenshot (230)" src="https://github.com/user-attachments/assets/32b4b5f6-5ade-4609-a472-d5c80a09f432" />
+<img width="1920" height="1080" alt="Screenshot (231)" src="https://github.com/user-attachments/assets/402ce090-3346-42ec-b352-c6b5ba41cf4b" />
 
-<img width="1920" height="1080" alt="Screenshot (257)" src="https://github.com/user-attachments/assets/81d20253-87c7-456c-9eb7-6876218add56" />
+<img width="1920" height="1080" alt="Screenshot (236)" src="https://github.com/user-attachments/assets/3c448e3d-c06d-4165-9ce5-37bec625c418" />
 
-<img width="1920" height="1080" alt="Screenshot (256)" src="https://github.com/user-attachments/assets/fe4f2fdf-a935-4d6d-9d0b-629e2f07ec33" />
+<img width="1920" height="1080" alt="Screenshot (232)" src="https://github.com/user-attachments/assets/11b553ae-bdb7-4668-be7d-38fd6e60e337" />
 
-<img width="1920" height="1080" alt="Screenshot (264)" src="https://github.com/user-attachments/assets/7258ca65-ce43-48ba-bd74-b26776d4d720" />
+<img width="1920" height="1080" alt="Screenshot (257)" src="https://github.com/user-attachments/assets/49a4bc1a-6174-425d-b4a8-8f202270e27d" />
 
-<img width="1920" height="1080" alt="Screenshot (266)" src="https://github.com/user-attachments/assets/a3fcf10a-776a-45d3-839a-75e15546849d" />
+<img width="1920" height="1080" alt="Screenshot (256)" src="https://github.com/user-attachments/assets/b9c4c2a1-181c-4b88-85d6-0eab6c82d25f" />
 
-<img width="1920" height="1080" alt="Screenshot (267)" src="https://github.com/user-attachments/assets/66ea5539-a2eb-456e-855f-11963bae0273" />
+<img width="1920" height="1080" alt="Screenshot (258)" src="https://github.com/user-attachments/assets/3689ed3f-12fe-4840-ae9b-09ecfa65907e" />
 
-<img width="1920" height="1080" alt="Screenshot (257)" src="https://github.com/user-attachments/assets/b672fb4b-73cf-4615-969d-511c0f5b0dd5" />
+<img width="1920" height="1080" alt="Screenshot (259)" src="https://github.com/user-attachments/assets/9e9a4304-48c2-4df7-bf02-b40bafa20699" />
+
+<img width="1920" height="1080" alt="Screenshot (260)" src="https://github.com/user-attachments/assets/c9680c7c-808e-4a6b-be4c-6539aaa2b7e0" />
+
+<img width="1920" height="1080" alt="Screenshot (264)" src="https://github.com/user-attachments/assets/dcc8c9da-ef7d-4770-b792-f44c5ce94d75" />
+
+<img width="1920" height="1080" alt="Screenshot (266)" src="https://github.com/user-attachments/assets/96c057aa-2d78-40b2-a10c-46a1f039b9ed" />
+
+<img width="1920" height="1080" alt="Screenshot (267)" src="https://github.com/user-attachments/assets/11039e96-6d30-4c40-84c1-ef741cdc1775" />
+
+<img width="1920" height="1080" alt="Screenshot (268)" src="https://github.com/user-attachments/assets/54666610-ea55-43d1-b70e-47540a0c9584" />
 
