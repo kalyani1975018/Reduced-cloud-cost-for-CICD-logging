@@ -26,8 +26,6 @@ Connect to it:
 ssh -i your-key.pem ubuntu@<your-ec2-public-ip>
 ```
 
----
-
 ## Step 2: Install Java (required by Jenkins)
 
 Jenkins runs on Java, so install it first:
@@ -37,8 +35,6 @@ sudo apt install -y fontconfig openjdk-21-jre
 java -version
 ```
 You should see a Java version printed out, confirming it installed correctly.
-
----
 
 ## Step 3: Install Jenkins
 
@@ -71,17 +67,15 @@ sudo systemctl status jenkins
    ```
 2. Jenkins will ask for an **initial admin password**. Get it by running:
    ```bash
-   sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   cat /var/lib/jenkins/secrets/initialAdminPassword
    ```
 3. Copy the password shown and paste it into the browser prompt
 4. Click **Install suggested plugins** and wait for it to finish
 5. Create your first admin user when prompted (username/password of your choice)
 
----
-
 ## Step 5: Create Jenkins Jobs
 
-Create at least two jobs so you can see the per-job folder logic working. These are set up as **Pipeline** jobs (not Freestyle):
+Create at least two jobs so you can see the per-job folder logic working. These are set up as **Pipeline** jobs:
 
 1. Jenkins Dashboard → **New Item**
 2. Enter a name (e.g. `First-job`) → select **Pipeline** → OK
@@ -103,8 +97,6 @@ Create at least two jobs so you can see the per-job folder logic working. These 
 
 > **Note:** the `git` step in the pipeline clones the given repository as part of the build. Make sure the repo URL is publicly accessible, or add credentials in Jenkins if it's private.
 
----
-
 ## Step 6: Create the S3 Bucket
 
 Using the AWS Console:
@@ -117,8 +109,6 @@ Or via AWS CLI (after CLI is installed/configured — see Step 7):
 ```bash
 aws s3 mb s3://shell-script-project --region us-east-1
 ```
-
----
 
 ## Step 7: Install & Configure AWS CLI on the EC2 (Ubuntu) Server
 
@@ -142,7 +132,6 @@ AWS Secret Access Key: <your secret key>
 Default region name:   <e.g. us-east-1>
 Default output format: json
 ```
----
 
 ## Step 8: The Script
 
@@ -208,7 +197,6 @@ Test it manually first:
 ```bash
 /bin/bash /home/ubuntu/upload-jenkins-buildjobs-logs.sh
 ```
----
 
 ## Step 9: Automate with Cron
 
@@ -245,5 +233,30 @@ cat /home/ubuntu/jenkins_s3_upload.log
 ```
 If you see `Uploaded: ...` lines, it's working. Then reset the schedule back to your real target time (`0 23 * * *` or `30 17 * * *`).
 
----
+Referanced screenshots:
+
+<img width="1920" height="1080" alt="Screenshot (225)" src="https://github.com/user-attachments/assets/b0bd06f9-effe-4512-b39b-f37b4ebceefe" />
+
+<img width="1920" height="1080" alt="Screenshot (226)" src="https://github.com/user-attachments/assets/1578cdcc-e845-4321-b1dd-18bae613f435" />
+update the instance type bcz t3.micro not having enough space to run the jenkins
+
+<img width="1920" height="1080" alt="Screenshot (234)" src="https://github.com/user-attachments/assets/899c8d97-bb8f-4a2d-9c1a-dea5fe68ba17" />
+
+<img width="1920" height="1080" alt="Screenshot (228)" src="https://github.com/user-attachments/assets/5218d3f3-6857-4775-ae38-0644cf6993b4" />
+
+<img width="1920" height="1080" alt="Screenshot (229)" src="https://github.com/user-attachments/assets/78b386d6-53b1-4b83-ab28-73f304da6494" />
+
+<img width="1920" height="1080" alt="Screenshot (230)" src="https://github.com/user-attachments/assets/32b4b5f6-5ade-4609-a472-d5c80a09f432" />
+
+<img width="1920" height="1080" alt="Screenshot (257)" src="https://github.com/user-attachments/assets/81d20253-87c7-456c-9eb7-6876218add56" />
+
+<img width="1920" height="1080" alt="Screenshot (256)" src="https://github.com/user-attachments/assets/fe4f2fdf-a935-4d6d-9d0b-629e2f07ec33" />
+
+<img width="1920" height="1080" alt="Screenshot (264)" src="https://github.com/user-attachments/assets/7258ca65-ce43-48ba-bd74-b26776d4d720" />
+
+<img width="1920" height="1080" alt="Screenshot (266)" src="https://github.com/user-attachments/assets/a3fcf10a-776a-45d3-839a-75e15546849d" />
+
+<img width="1920" height="1080" alt="Screenshot (267)" src="https://github.com/user-attachments/assets/66ea5539-a2eb-456e-855f-11963bae0273" />
+
+<img width="1920" height="1080" alt="Screenshot (257)" src="https://github.com/user-attachments/assets/b672fb4b-73cf-4615-969d-511c0f5b0dd5" />
 
